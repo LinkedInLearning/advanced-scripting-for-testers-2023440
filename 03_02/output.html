@@ -1,0 +1,71 @@
+<html>
+<head>
+    <title>Results Page</title>
+    <body>
+        <h1>Results Summary</h1>
+        <div>
+            <canvas id="myChart"></canvas>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+        <script>
+            const ctx = document.getElementById('myChart');
+
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                labels: ['Passed', 'Failed', 'Skipped'],
+                datasets: [{
+                    label: 'Test Result Counts',
+                    data: [2, 3, 1],
+                    borderWidth: 1
+                }]
+                },
+                options: {
+                scales: {
+                    y: {
+                    beginAtZero: true
+                    }
+                }
+                }
+            });
+            </script>
+        <table>
+            <tr>
+                <th>Test Name</th>
+                <th>Status</th>
+            </tr>
+            
+            <tr>
+                <td> Test 1</td>
+                <td> Passed</td>
+            </tr>
+            
+            <tr>
+                <td> Test 2</td>
+                <td> Failed</td>
+            </tr>
+            
+            <tr>
+                <td> Test 3</td>
+                <td> Skipped</td>
+            </tr>
+            
+            <tr>
+                <td> Test 4</td>
+                <td> Passed</td>
+            </tr>
+            
+            <tr>
+                <td> Test 5</td>
+                <td> Failed</td>
+            </tr>
+            
+            <tr>
+                <td> Test 6</td>
+                <td> Failed</td>
+            </tr>
+            
+        </table>
+    </body>
+</html>

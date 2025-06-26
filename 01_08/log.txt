@@ -1,0 +1,61 @@
+INFO     Using path gigtracker/app.py                                                                                                                 
+INFO     Resolved absolute path /Users/dwesterveld/personal/Advanced_Scripting_For_Testers/gig-tracker/gigtracker/app.py                              
+INFO     Searching for package file structure from directories with __init__.py files                                                                 
+INFO     Importing from /Users/dwesterveld/personal/Advanced_Scripting_For_Testers/gig-tracker                                                        
+                                                                                                                                                      
+ ╭─ Python package file structure ─╮                                                                                                                  
+ │                                 │                                                                                                                  
+ │  📁 gigtracker                  │                                                                                                                  
+ │  ├── 🐍 __init__.py             │                                                                                                                  
+ │  └── 🐍 app.py                  │                                                                                                                  
+ │                                 │                                                                                                                  
+ ╰─────────────────────────────────╯                                                                                                                  
+                                                                                                                                                      
+INFO     Importing module gigtracker.app                                                                                                              
+INFO     Found importable FastAPI app                                                                                                                 
+                                                                                                                                                      
+ ╭───── Importable FastAPI app ─────╮                                                                                                                 
+ │                                  │                                                                                                                 
+ │  from gigtracker.app import app  │                                                                                                                 
+ │                                  │                                                                                                                 
+ ╰──────────────────────────────────╯                                                                                                                 
+                                                                                                                                                      
+INFO     Using import string gigtracker.app:app                                                                                                       
+                                                                                                                                                      
+ ╭────────── FastAPI CLI - Development mode ───────────╮                                                                                              
+ │                                                     │                                                                                              
+ │  Serving at: http://127.0.0.1:4001                  │                                                                                              
+ │                                                     │                                                                                              
+ │  API docs: http://127.0.0.1:4001/docs               │                                                                                              
+ │                                                     │                                                                                              
+ │  Running in development mode, for production use:   │                                                                                              
+ │                                                     │                                                                                              
+ │  fastapi run                                        │                                                                                              
+ │                                                     │                                                                                              
+ ╰─────────────────────────────────────────────────────╯                                                                                              
+                                                                                                                                                      
+2025-04-17 06:55:40,581 - uvicorn.error - INFO - Started server process [20388]
+2025-04-17 06:55:40,581 - uvicorn.error - INFO - Waiting for application startup.
+2025-04-17 06:55:40,588 - uvicorn.error - INFO - Application startup complete.
+2025-04-17 06:55:40,682 - watchfiles.main - INFO - 2 changes detected
+2025-04-17 06:56:32,224 - uvicorn.access - INFO - 127.0.0.1:51600 - "POST /clients HTTP/1.1" 200
+2025-04-17 06:56:32,311 - watchfiles.main - INFO - 2 changes detected
+2025-04-17 06:57:06,957 - uvicorn.access - INFO - 127.0.0.1:51770 - "GET /docs HTTP/1.1" 200
+2025-04-17 06:57:07,276 - uvicorn.access - INFO - 127.0.0.1:51770 - "GET /openapi.json HTTP/1.1" 200
+2025-04-17 06:57:29,223 - uvicorn.access - INFO - 127.0.0.1:51883 - "GET /api/users/1 HTTP/1.1" 401
+2025-04-17 06:57:50,075 - uvicorn.access - INFO - 127.0.0.1:51977 - "GET /api/users/1 HTTP/1.1" 401
+2025-04-17 06:58:46,423 - uvicorn.access - INFO - 127.0.0.1:52244 - "GET /api/users/1 HTTP/1.1" 401
+2025-04-17 06:58:51,394 - uvicorn.access - INFO - 127.0.0.1:52244 - "GET /api/users/1 HTTP/1.1" 401
+2025-04-17 07:01:29,171 - uvicorn.access - INFO - 127.0.0.1:53068 - "GET /clients HTTP/1.1" 200
+2025-04-17 07:01:29,208 - uvicorn.access - INFO - 127.0.0.1:53070 - "GET /static/src/tailwind.css HTTP/1.1" 304
+2025-04-17 07:01:29,208 - uvicorn.access - INFO - 127.0.0.1:53071 - "GET /static/js/htmx.min.js HTTP/1.1" 304
+2025-04-17 07:01:29,208 - uvicorn.access - INFO - 127.0.0.1:53068 - "GET /static/css/main.css HTTP/1.1" 304
+2025-04-17 07:01:52,123 - uvicorn.access - INFO - 127.0.0.1:53181 - "GET /gigs HTTP/1.1" 200
+2025-04-17 07:01:53,590 - uvicorn.access - INFO - 127.0.0.1:53181 - "GET /venues HTTP/1.1" 200
+2025-04-17 07:02:14,836 - gigtracker.logger_settings - INFO - Creating venue: Venue
+2025-04-17 07:02:14,843 - uvicorn.access - INFO - 127.0.0.1:53283 - "POST /venues HTTP/1.1" 200
+2025-04-17 07:02:14,902 - watchfiles.main - INFO - 2 changes detected
+2025-04-17 07:02:45,286 - uvicorn.access - INFO - 127.0.0.1:53433 - "GET /docs HTTP/1.1" 200
+2025-04-17 07:02:45,365 - uvicorn.access - INFO - 127.0.0.1:53433 - "GET /openapi.json HTTP/1.1" 200
+2025-04-17 07:03:02,913 - uvicorn.access - INFO - 127.0.0.1:53520 - "GET /api/clients/1 HTTP/1.1" 401
+2025-04-17 07:03:31,421 - uvicorn.access - INFO - 127.0.0.1:53655 - "GET /api/venues/1 HTTP/1.1" 200
