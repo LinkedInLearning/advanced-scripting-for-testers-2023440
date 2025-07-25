@@ -31,8 +31,8 @@ wb.close()
 
 msg = EmailMessage()
 msg["Subject"] = "Status Codes Summary"
-msg["From"] = "me@me.com"
-msg["To"] = "davewesterveld@gmail.com"
+msg["From"] = " " # email address goes here
+msg["To"] = " " # email address goes here
 msg.set_content("Please find the status_codes_summary.xlsx attached")
 
 with open("status_codes_summary.xlsx", "rb") as f:
@@ -49,5 +49,5 @@ password = os.getenv("GMAIL_SMTP_PASSWORD")
 
 with smtplib.SMTP("smtp.gmail.com", 587) as smtp:
     smtp.starttls()
-    smtp.login("davewesterveld@gmail.com", password)
+    smtp.login(" ", password)  # email address goes here
     smtp.send_message(msg)
