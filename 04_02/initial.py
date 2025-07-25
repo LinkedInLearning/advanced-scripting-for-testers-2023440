@@ -5,12 +5,12 @@ from email.message import EmailMessage
 msg = EmailMessage()
 
 msg["Subject"] = "Test Email"
-msg["From"] = "me@me.com"
-msg["To"] = "davewesterveld@gmail.com"
+msg["From"] = "" # email address goes here
+msg["To"] = ""  # email address goes here
 msg.set_content("This is a test email sent from my Python script!")
 
 password = getpass.getpass()
 with smtplib.SMTP("smtp.gmail.com", 587) as smtp:
     smtp.starttls()
-    smtp.login("davewesterveld@gmail.com", password)
+    smtp.login(" ", password) # email address goes here
     smtp.send_message(msg)
