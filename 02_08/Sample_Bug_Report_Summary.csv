@@ -1,0 +1,26 @@
+﻿ID,Title,Status,Severity
+101,Bug 0,Information Needed,High
+102,Bug 1,Open,Medium
+103,Bug 2,In Review,High
+104,Bug 3,In Review,Medium
+105,Bug 4,In Review,Medium
+106,Bug 5,In Progress,Critical
+107,Bug 6,In Progress,High
+108,Bug 7,In Progress,Medium
+109,Bug 8,Open,Medium
+110,Bug 9,In Review,Low
+111,Bug 10,Information Needed,Medium
+112,Bug 11,Open,High
+113,Bug 12,Information Needed,Low
+114,Bug 13,In Review,Critical
+115,Bug 14,Open,Low
+116,Bug 15,In Review,Medium
+117,Bug 16,Information Needed,Low
+118,Bug 17,Information Needed,Medium
+119,Bug 18,Information Needed,Medium
+120,Bug 19,Open,Medium
+121,Bug 20,In Review,High
+122,Bug 21,In Progress,Medium
+123,Bug 22,Information Needed,Low
+124,Bug 23,In Progress,High
+125,Bug 24,Information Needed,Medium

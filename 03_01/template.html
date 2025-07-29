@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>Results Page</title>
+    <body>
+        <h1>Results Summary</h1>
+        <table>
+            <tr>
+                <th>Test Name</th>
+                <th>Status</th>
+            </tr>
+            {% for result in results %}
+            <tr>
+                <td> {{ result.test }}</td>
+                <td> {{ result.status }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>
