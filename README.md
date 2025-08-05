@@ -5,6 +5,8 @@ This is the repository for the LinkedIn Learning course Advanced Scripting for T
 
 ## Course Description
 
+Your program might be passing all the tests, but what more can you glean from your results? Your test results can hold—and sometimes, even hide—valuable insights that you could be extracting and sharing with larger teams. In this course, instructor Dave Westerveld offers an overview of advanced scripting skills for testers, including local data processing, spreadsheets, and test reporting. Explore the essentials of processing local data generated from testing, working with the Google Charts and Sheets APIs, and creating and managing reports with HTML, PDFs, email, Slack, Excel, and Python. By the end of this course, you’ll be prepared to wield your new skills to find and distribute your testing results more effectively.
+
 ## Instructions
 You will find the various scripts for this course in the numbered sub-folders. There is a subfolder in there for each video that has scripts available. So for example to find the scripts for video 5 from chapter 1, you would go to the [01_05 folder](./01_05)
 
@@ -26,6 +28,5 @@ Check out his other courses on [LinkedIn Learning](https://www.linkedin.com/lear
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D4E0DAQG0eDHsyOSqTA/learning-public-crop_675_1200/B4EZVdqqdwHUAY-/0/1741033220778?e=2147483647&v=beta&t=FxUDo6FA8W8CiFROwqfZKL_mzQhYx9loYLfjN-LNjgA
-
+[lil-course-url]: https://www.linkedin.com/learning/advanced-scripting-for-testers-local-data-spreadsheets-and-reporting
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D560DAQEBZDCareR_VQ/learning-public-crop_675_1200/B56Zhm0F_yHcAc-/0/1754071589141?e=2147483647&v=beta&t=Qji3umWAWZqTswghU1w3eAUaw0mWA4IezwY79Hrl1SA
